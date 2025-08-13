@@ -41,20 +41,18 @@ The Multiple Disease Prediction project aims to create a **user-friendly web app
    git clone https://github.com/Ranjith-kumar-08/Multiple-Disease-prediction-using-ML.git
 
 2. Install dependencies:
-
-pip install -r requirements.txt
-
+```bash
+    pip install -r requirements.txt
+```
 
 3. Download the pre-trained models for:
 
-Diabetes
+- Diabetes Disease
+- Heart Disease
+- Parkinson's Disease
 
-Parkinson's Disease
 
-Heart Disease
 Place them in the correct folders in the project.
-
-
 
 4. Update configurations and file paths if needed.
 
@@ -69,20 +67,20 @@ Usage
 
 
 2. Start the Streamlit app:
-
+ ```bash
 streamlit run multiplediseaseprediction.py
+```
+
+4. Open the provided local URL in your browser.
 
 
-3. Open the provided local URL in your browser.
+5. Enter the required medical details.
 
 
-4. Enter the required medical details.
+6. Click Predict to get results.
 
 
-5. Click Predict to get results.
-
-
-6. View predictions and visualizations.
+7. View predictions and visualizations.
 
 
 
@@ -101,3 +99,6 @@ License
 
 This project is licensed under the MIT License.
 You can freely use, modify, and distribute the code for personal or commercial use.
+
+
+
